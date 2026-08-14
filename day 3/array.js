@@ -5,3 +5,11 @@ for(let i=0;i<arr.length;i++){
     sum+=arr[i];
 }
 console.log("sum=",sum);
+//2d array
+let student=[
+    ["rimjhim",20,"female"],
+    ["shawsti",20,"female"],
+    ["nisha",20,"female"]
+];
+
+       console.log(student);
