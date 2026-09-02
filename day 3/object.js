@@ -41,3 +41,13 @@ console.log(employees);
 delete employees.id;
 console.log(employees);
 
+//object with methods
+a={
+    name:"rimjhim",
+    id:154,
+    details:function(){
+        console.log("my name:",this.name);
+        console.log("my id:",this.id);
+    }
+}
+a.details();
