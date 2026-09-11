@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <script>
+            function addNumbers(...Numbers){
+                console.log(Numbers);
+            }
+            addNumbers(1,2,3,4,5,6,7,8,9,10);
+            function sum(...Numbers){
+                let total=0;
+                for(let num of Numbers){
+                    total+=num;
+                }
+              return total;
+            }
+            console.log(sum(1,2,3,4,5,6,7,8,9,10));
+            function printDetails(name, ...numbers) {
+    let t = 0;
+
+    for (let num of numbers) {
+        t += num;
+    }
+
+    console.log("Name:", name);
+    console.log("T:", t);
+}
+
+printDetails("rimjhim", 20, 30, 50);
+        </script>
+    </body>
+</html>
